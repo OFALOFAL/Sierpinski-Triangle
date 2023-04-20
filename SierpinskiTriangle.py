@@ -34,7 +34,8 @@ length = WIDTH
 A = [WIDTH / 2, 0]
 B = [WIDTH, HEIGHT]
 C = [0, HEIGHT]
+depth = 4
 canvas.create_polygon([A, B, C], fill='white')
-sierpinski(4, A, B, C)
+sierpinski(depth, A, B, C)
 
 tk.mainloop()
